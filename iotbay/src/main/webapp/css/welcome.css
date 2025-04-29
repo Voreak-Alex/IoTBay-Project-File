@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #3ba092;  
+    font-size: 20px; 
+}
+nav form {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; 
+}
+nav form button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+}
+.baritem {
+    display: inline-block;
+    padding: 12px 16px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.button {
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.cart-button {
+    display: inline-block;
+    background-color:#3ba092;
+    color: rgb(0, 0, 0);
+    padding: 20px 100px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cart-button:hover {
+    background-color: #46726c;
+}
+.button:hover {
+    color: rgb(124, 128, 128);
+    border: none;
+}
+.leftside {
+    margin-left: auto;
+}
+.search-bar {
+    margin-left: auto;
+}
+.search-bar input {
+    width: 100%;
+    padding: 12px 50px;
+    margin-bottom: 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.welcome-container {
+    background-color: #3ba092;  
+    padding: 20px;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 100PX   ;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+p {
+    color: #dddddd;
+    margin-bottom: 15px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.hero-text {
+    max-width: 50%;
+    text-align: left;
+}
+.hero-text h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+.hero-text p {
+    color: #666;
+    margin-bottom: 20px;
+}
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+}
+.row {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+    margin: 100px;
+    margin-top: -110px;
+}
+.buttonRow {
+    display: inline-block;
+    background-color:#c4c4c4;
+    color: rgb(0, 0, 0);
+    padding: 20px 100px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+.buttonRow:hover {
+    background-color: #949494;
+}
